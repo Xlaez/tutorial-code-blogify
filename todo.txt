@@ -1,0 +1,3 @@
+AUTH - Register, Login
+USER - update profile, update pics, change password, change email
+POSTS - create post, edit post, delete post
