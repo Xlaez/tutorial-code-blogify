@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /usr/bin/yarn add bcyrptjs
+  /usr/local/bin/node /usr/bin/yarn add cloudinary @dolphj/core
 
 PATH: 
-  /home/xlaez/.bun/bin:/home/xlaez/.yarn/bin:/home/xlaez/.bun/bin:/home/xlaez/miniconda3/bin:/home/xlaez/miniconda3/condabin:/home/xlaez/.yarn/bin:/home/xlaez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xlaez/.local/share/JetBrains/Toolbox/scripts:/usr/lib/dart/bin:/home/xlaez/go/bin:/home/xlaez/.local/bin:/home/xlaez/snap/flutter/common/flutter/bin:/usr/lib/dart/bin:/home/xlaez/go/bin:/home/xlaez/.local/bin:/home/xlaez/snap/flutter/common/flutter/bin:/usr/lib/dart/bin
+  /home/xlaez/.bun/bin:/home/xlaez/miniconda3/bin:/home/xlaez/miniconda3/condabin:/home/xlaez/.yarn/bin:/home/xlaez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xlaez/.local/share/JetBrains/Toolbox/scripts:/usr/lib/dart/bin:/home/xlaez/go/bin:/home/xlaez/go/bin:/home/xlaez/.local/bin:/home/xlaez/snap/flutter/common/flutter/bin:/usr/lib/dart/bin
 
 Yarn version: 
   1.22.19
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/bcyrptjs: Not found
+  Error: https://registry.yarnpkg.com/@dolphj%2fcore: Not found
       at params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:66145:18)
       at self.callback (/usr/lib/node_modules/yarn/lib/cli.js:140890:22)
       at Request.emit (node:events:511:28)
@@ -37,6 +37,7 @@ npm manifest:
       "start": "node server.js"
     },
     "dependencies": {
+      "bcryptjs": "^2.4.3",
       "cors": "^2.8.5",
       "dotenv": "^16.3.1",
       "express": "^4.18.2",
@@ -111,6 +112,11 @@ Lockfile:
     version "1.0.2"
     resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
     integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
+  
+  bcryptjs@^2.4.3:
+    version "2.4.3"
+    resolved "https://registry.yarnpkg.com/bcryptjs/-/bcryptjs-2.4.3.tgz#9ab5627b93e60621ff7cdac5da9733027df1d0cb"
+    integrity sha512-V/Hy/X9Vt7f3BbPJEi8BdVFMByHi+jNXrYkW3huaybV/kQ0KJg0Y6PkEMbn+zeT+i+SiKZ/HMqJGIIt4LZDqNQ==
   
   binary-extensions@^2.0.0:
     version "2.2.0"

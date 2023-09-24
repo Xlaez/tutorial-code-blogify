@@ -1,5 +1,6 @@
 const express = require("express");
 const userRouter = require("./routes/user.routes");
+const postRouter = require("./routes/post.routes");
 const { mongoConnection } = require("./configs/mongo.configs");
 require("dotenv").config({});
 
@@ -11,6 +12,7 @@ server.use(express.json({}));
 server.use(express.urlencoded({ extended: true }));
 
 server.use("/user", userRouter);
+server.use("/post", postRouter);
 
 const runServer = (port) => {
   mongoConnection()
